@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "comment": "演示用脱敏阵容清单（与真实批次 schema 同构；slug 与样例对局对齐，全部为 experimental 档）",
+  "lineups": [
+    {"id": "A", "slug": "fire-axis", "name": "火轴（演示）", "status": "experimental"},
+    {"id": "B", "slug": "break-axis", "name": "破轴（演示）", "status": "experimental"},
+    {"id": "C", "slug": "red-burst", "name": "红爆（演示）", "status": "experimental"},
+    {"id": "D", "slug": "mixed-extend", "name": "混编（演示）", "status": "experimental"},
+    {"id": "E", "slug": "shield-axis", "name": "盾轴（演示）", "status": "experimental"}
+  ]
+}

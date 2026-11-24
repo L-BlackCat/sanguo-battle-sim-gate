@@ -1,0 +1,550 @@
+{
+  "game_id" : "441016_mixed-extend_vs_shield-axis_16_e934f2a8",
+  "lineups_sha256" : "e934f2a87dfae95b9350428e747c083408be038dd07c0aeb9aca623b5deb7b3d",
+  "lineups_version" : 4,
+  "seed" : 441016,
+  "matchup" : "mixed-extend_vs_shield-axis",
+  "iteration" : 16,
+  "lineup_p1" : "mixed-extend",
+  "lineup_p2" : "shield-axis",
+  "policy_requested" : "v2",
+  "policy_effective" : "v2",
+  "first_player" : "P1",
+  "winner" : "P1",
+  "turn_count" : 10,
+  "end_reason" : "max_turns",
+  "survivors" : {
+    "P1" : 3,
+    "P2" : 3
+  },
+  "heroes" : {
+    "P1:1001" : {
+      "hero_id" : 1001,
+      "name" : "刘备",
+      "side" : "P1",
+      "damage" : 34,
+      "skill_damage" : 34,
+      "normal_damage" : 0,
+      "taken" : 138,
+      "absorbed" : 71,
+      "heal" : 102,
+      "shield_granted" : 76,
+      "casts" : {
+        "1" : 6,
+        "2" : 1,
+        "3" : 3
+      },
+      "death_round" : 0
+    },
+    "P1:1005" : {
+      "hero_id" : 1005,
+      "name" : "赵云",
+      "side" : "P1",
+      "damage" : 120,
+      "skill_damage" : 120,
+      "normal_damage" : 0,
+      "taken" : 72,
+      "absorbed" : 0,
+      "heal" : 0,
+      "shield_granted" : 0,
+      "casts" : {
+        "1" : 6,
+        "2" : 4,
+        "3" : 0
+      },
+      "death_round" : 0
+    },
+    "P1:3005" : {
+      "hero_id" : 3005,
+      "name" : "吕蒙",
+      "side" : "P1",
+      "damage" : 127,
+      "skill_damage" : 127,
+      "normal_damage" : 0,
+      "taken" : 81,
+      "absorbed" : 18,
+      "heal" : 0,
+      "shield_granted" : 18,
+      "casts" : {
+        "1" : 6,
+        "2" : 4,
+        "3" : 0
+      },
+      "death_round" : 0
+    },
+    "P2:1004" : {
+      "hero_id" : 1004,
+      "name" : "诸葛亮",
+      "side" : "P2",
+      "damage" : 0,
+      "skill_damage" : 0,
+      "normal_damage" : 0,
+      "taken" : 244,
+      "absorbed" : 148,
+      "heal" : 0,
+      "shield_granted" : 440,
+      "casts" : {
+        "1" : 7,
+        "2" : 3,
+        "3" : 0
+      },
+      "death_round" : 0
+    },
+    "P2:2001" : {
+      "hero_id" : 2001,
+      "name" : "曹操",
+      "side" : "P2",
+      "damage" : 92,
+      "skill_damage" : 87,
+      "normal_damage" : 5,
+      "taken" : 116,
+      "absorbed" : 30,
+      "heal" : 0,
+      "shield_granted" : 110,
+      "casts" : {
+        "1" : 3,
+        "2" : 2,
+        "3" : 0
+      },
+      "death_round" : 0
+    },
+    "P2:3001" : {
+      "hero_id" : 3001,
+      "name" : "孙权",
+      "side" : "P2",
+      "damage" : 0,
+      "skill_damage" : 0,
+      "normal_damage" : 0,
+      "taken" : 220,
+      "absorbed" : 100,
+      "heal" : 0,
+      "shield_granted" : 143,
+      "casts" : {
+        "1" : 4,
+        "2" : 5,
+        "3" : 1
+      },
+      "death_round" : 0
+    }
+  },
+  "skills" : [ {
+    "name" : "仁德",
+    "level" : 1,
+    "casts" : 6,
+    "damage" : 0,
+    "heal" : 49,
+    "skill_id" : 100101
+  }, {
+    "name" : "八卦阵",
+    "level" : 1,
+    "casts" : 7,
+    "damage" : 0,
+    "heal" : 0,
+    "skill_id" : 100401
+  }, {
+    "name" : "突刺",
+    "level" : 1,
+    "casts" : 6,
+    "damage" : 36,
+    "heal" : 0,
+    "skill_id" : 100501
+  }, {
+    "name" : "奸雄",
+    "level" : 1,
+    "casts" : 3,
+    "damage" : 87,
+    "heal" : 0,
+    "skill_id" : 200101
+  }, {
+    "name" : "勤学",
+    "level" : 1,
+    "casts" : 6,
+    "damage" : 45,
+    "heal" : 0,
+    "skill_id" : 300501
+  }, {
+    "name" : "制衡",
+    "level" : 1,
+    "casts" : 4,
+    "damage" : 0,
+    "heal" : 0,
+    "skill_id" : 300101
+  }, {
+    "name" : "汉室复兴",
+    "level" : 3,
+    "casts" : 3,
+    "damage" : 0,
+    "heal" : 53,
+    "skill_id" : 100103
+  }, {
+    "name" : "七进七出",
+    "level" : 2,
+    "casts" : 4,
+    "damage" : 84,
+    "heal" : 0,
+    "skill_id" : 100502
+  }, {
+    "name" : "步步为营",
+    "level" : 2,
+    "casts" : 5,
+    "damage" : 0,
+    "heal" : 0,
+    "skill_id" : 300102
+  }, {
+    "name" : "克己",
+    "level" : 2,
+    "casts" : 4,
+    "damage" : 82,
+    "heal" : 0,
+    "skill_id" : 300502
+  }, {
+    "name" : "东风",
+    "level" : 2,
+    "casts" : 3,
+    "damage" : 0,
+    "heal" : 0,
+    "skill_id" : 100402
+  }, {
+    "name" : "紫髯碧眼",
+    "level" : 3,
+    "casts" : 1,
+    "damage" : 0,
+    "heal" : 0,
+    "skill_id" : 300103
+  }, {
+    "name" : "挟天子",
+    "level" : 2,
+    "casts" : 2,
+    "damage" : 0,
+    "heal" : 0,
+    "skill_id" : 200102
+  }, {
+    "name" : "仁者无敌",
+    "level" : 2,
+    "casts" : 1,
+    "damage" : 34,
+    "heal" : 0,
+    "skill_id" : 100102
+  } ],
+  "sides" : {
+    "P1" : {
+      "total_damage" : 580,
+      "card_damage" : 233,
+      "skill_damage" : 281,
+      "normal_damage" : 0,
+      "dot_damage" : 66,
+      "total_heal" : 153,
+      "total_shield" : 94,
+      "cardDamage" : 233,
+      "cardHeal" : 51,
+      "burn" : 0,
+      "poison" : 39,
+      "bleed" : 27,
+      "dotOther" : 0,
+      "burnApply" : 0,
+      "poisonApply" : 30,
+      "bleedApply" : 16,
+      "burnNominal" : 0,
+      "poisonNominal" : 48,
+      "bleedNominal" : 28,
+      "healDeclared" : 433,
+      "plays" : {
+        "3007" : 7,
+        "1010" : 4,
+        "2010" : 2,
+        "3003" : 3,
+        "1002" : 7,
+        "3006" : 5,
+        "1001" : 3,
+        "3001" : 6,
+        "2005" : 4,
+        "3010" : 3
+      }
+    },
+    "P2" : {
+      "total_damage" : 291,
+      "card_damage" : 130,
+      "skill_damage" : 87,
+      "normal_damage" : 5,
+      "dot_damage" : 69,
+      "total_heal" : 111,
+      "total_shield" : 693,
+      "cardDamage" : 130,
+      "cardHeal" : 111,
+      "burn" : 0,
+      "poison" : 69,
+      "bleed" : 0,
+      "dotOther" : 0,
+      "burnApply" : 0,
+      "poisonApply" : 45,
+      "bleedApply" : 0,
+      "burnNominal" : 0,
+      "poisonNominal" : 72,
+      "bleedNominal" : 0,
+      "healDeclared" : 111,
+      "plays" : {
+        "3010" : 1,
+        "3006" : 5,
+        "1002" : 6,
+        "1001" : 4,
+        "3003" : 9,
+        "2010" : 3,
+        "3007" : 7,
+        "3001" : 9,
+        "2004" : 3,
+        "2005" : 3
+      }
+    }
+  },
+  "cards" : {
+    "P1:3007" : {
+      "plays" : 7,
+      "damage" : 0,
+      "heal" : 50,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:1010" : {
+      "plays" : 4,
+      "damage" : 123,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:2010" : {
+      "plays" : 2,
+      "damage" : 30,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 30,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:3010" : {
+      "plays" : 1,
+      "damage" : 0,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:3006" : {
+      "plays" : 5,
+      "damage" : 0,
+      "heal" : 0,
+      "shield" : 82,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:1002" : {
+      "plays" : 6,
+      "damage" : 30,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:1001" : {
+      "plays" : 4,
+      "damage" : 16,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:3003" : {
+      "plays" : 9,
+      "damage" : 0,
+      "heal" : 0,
+      "shield" : 114,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:2010" : {
+      "plays" : 3,
+      "damage" : 45,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 45,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:3007" : {
+      "plays" : 7,
+      "damage" : 0,
+      "heal" : 105,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:3001" : {
+      "plays" : 9,
+      "damage" : 0,
+      "heal" : 0,
+      "shield" : 112,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:3003" : {
+      "plays" : 3,
+      "damage" : 0,
+      "heal" : 0,
+      "shield" : 24,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:1002" : {
+      "plays" : 7,
+      "damage" : 35,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:3006" : {
+      "plays" : 5,
+      "damage" : 0,
+      "heal" : 0,
+      "shield" : 40,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:1001" : {
+      "plays" : 3,
+      "damage" : 12,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:3001" : {
+      "plays" : 6,
+      "damage" : 0,
+      "heal" : 0,
+      "shield" : 30,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:2005" : {
+      "plays" : 4,
+      "damage" : 33,
+      "heal" : 1,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:2004" : {
+      "plays" : 3,
+      "damage" : 15,
+      "heal" : 0,
+      "shield" : 34,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P2:2005" : {
+      "plays" : 3,
+      "damage" : 24,
+      "heal" : 6,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    },
+    "P1:3010" : {
+      "plays" : 3,
+      "damage" : 0,
+      "heal" : 0,
+      "shield" : 0,
+      "stacks" : {
+        "burn" : 0,
+        "poison" : 0,
+        "bleed" : 0,
+        "other" : 0
+      }
+    }
+  },
+  "kills" : { },
+  "overkill" : {
+    "P1:card:2005" : 2,
+    "P1:card:1010" : 22,
+    "P1:3005" : 6,
+    "P1:dot" : 7,
+    "P1:card:2010" : 5,
+    "P1:1005" : 6
+  }
+}
